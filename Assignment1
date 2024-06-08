@@ -1,0 +1,169 @@
+2]
+    abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ uname
+     Linux
+
+3]  
+    abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ pwd
+     /home/abhishek
+
+4]
+    abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ hostname
+     abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI
+
+5]
+	abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ date
+      Friday 31 May 2024 06:57:38 PM IST
+      
+6]
+	abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ cal -y
+                            2024
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3                  1  2  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   3  4  5  6  7  8  9  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  10 11 12 13 14 15 16  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  17 18 19 20 21 22 23  
+28 29 30 31           25 26 27 28 29        24 25 26 27 28 29 30  
+                                            31                    
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6            1  2  3  4                     1  
+ 7  8  9 10 11 12 13   5  6  7  8  9 10 11   2  3  4  5  6  7  8  
+14 15 16 17 18 19 20  12 13 14 15 16 17 18   9 10 11 12 13 14 15  
+21 22 23 24 25 26 27  19 20 21 22 23 24 25  16 17 18 19 20 21 22  
+28 29 30              26 27 28 29 30 31     23 24 25 26 27 28 29  
+                                            30                    
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3   1  2  3  4  5  6  7  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   8  9 10 11 12 13 14  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  15 16 17 18 19 20 21  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  22 23 24 25 26 27 28  
+28 29 30 31           25 26 27 28 29 30 31  29 30                 
+                                                                  
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5                  1  2   1  2  3  4  5  6  7  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   8  9 10 11 12 13 14  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  15 16 17 18 19 20 21  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  22 23 24 25 26 27 28  
+27 28 29 30 31        24 25 26 27 28 29 30  29 30 31              
+                                                        
+
+7]
+	abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ ls
+ Assignment01   create      Desktop     Downloads                                labexam   MySQL_Installation_Steps.txt   practice   RajLove   snap          sw          Videos
+'clone link'    deedd.sql   Documents   google-chrome-stable_current_amd64.deb   Music     Pictures                       Public     see       SQLpractice   Templates
+
+      abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ dir
+Assignment01  create	 Desktop    Downloads				    labexam  MySQL_Installation_Steps.txt  practice  RajLove  snap	   sw	      Videos
+clone\ link   deedd.sql  Documents  google-chrome-stable_current_amd64.deb  Music    Pictures			   Public    see      SQLpractice  Templates
+
+8]
+	abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ cat > /home/abhishek/seeyou
+
+9]	abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/OSpractice$ cat >>hen/inception.txt
+i love you mom 
+
+
+10]
+
+	abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ cp /home/abhishek/OSpractice/hen/pops.txt /home/abhishek/sw
+
+
+11]
+
+	abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ mv /home/abhishek/OSpractice/hen/pops.txt /home/abhishek/raj
+
+
+12]
+	abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/raj$ mv pops.txt moms.txt
+
+
+13]
+	abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/raj$ tac inception.txt
+
+i love my family
+i love you mom 
+i love you dad
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/raj$ rev inception.txt
+dad uoy evol i
+ mom uoy evol i
+ylimaf ym evol i
+
+14]
+wc  /home/abhishek/raj/inception.txt
+ 4 12 49 /home/abhishek/raj/inception.txt
+
+
+15]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ mkdir /home/abhishek/raj/abhi
+
+16]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/raj$ cd /home/abhishek
+
+17]
+  abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ rm /home/abhishek/raj/moms1.txt
+
+  abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ rm -R /home/abhishek/raj/abhi1
+
+18]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ rmdir /home/abhishek/raj/abhi
+
+19]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/raj$ touch a.txt b.txt c.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ touch /home/abhishek/raj/moms.txt
+
+20]
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/raj$ sort inception.txt
+
+i love my family
+i love you dad
+i love you mom 
+
+21]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/raj$ uniq inception.txt
+
+22]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/raj$ head inception.txt
+
+23]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/raj$ tail inception.txt
+
+24]
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/OSpractice$ factor 256
+256: 2 2 2 2 2 2 2 2
+
+25]
+
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ alias c=clear
+
+26]
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ unalias c
+
+27]
+
+
+28]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ ps
+    PID TTY          TIME CMD
+   7348 pts/1    00:00:00 bash
+  10886 pts/1    00:00:00 ps
+
+
+
+
+
