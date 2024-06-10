@@ -1,0 +1,199 @@
+
+1]
+  abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ ls -l -t
+total 103704
+-rw-rw-r--  1 abhishek abhishek         7 Jun  1 17:17  Assignment02
+-rw-rw-r--  1 abhishek abhishek         0 Jun  1 17:03  Ass
+drwxrwxr-x  3 abhishek abhishek      4096 Jun  1 00:18  raj
+-rw-rw-r--  1 abhishek abhishek      5746 Jun  1 00:14  Assignment01
+-rw-rw-r--  1 abhishek abhishek         0 May 31 23:51  file2.txt
+-rw-rw-r--  1 abhishek abhishek         0 May 31 23:51  file5.txt
+drwxrwxr-x  2 abhishek abhishek      4096 May 31 23:14  sw
+drwxrwxr-x  4 abhishek abhishek      4096 May 31 23:06  OSpractice
+drwxr-xr-x  3 abhishek abhishek      4096 May 31 21:58  Downloads
+-rw-rw-r--  1 abhishek abhishek         0 May 31 19:11  seeyou
+drwxr-xr-x  3 abhishek abhishek      4096 May 31 18:36  Music
+drwxr-xr-x 19 abhishek abhishek      4096 May 31 18:15  Desktop
+-rw-rw-r--  1 abhishek abhishek      6913 Apr 19 13:50  RajLove
+drwxr-xr-x  2 abhishek abhishek      4096 Apr 11 18:31  Documents
+drwxrwxr-x  2 abhishek abhishek      4096 Apr  3 20:33  labexam
+-rw-rw-r--  1 abhishek abhishek       400 Mar 27 17:43  deedd.sql
+drwxrwxr-x  3 abhishek abhishek      4096 Mar 27 14:57  SQLpractice
+drwxr-xr-x  4 abhishek abhishek      4096 Mar 19 17:26  Pictures
+-rw-rw-r--  1 abhishek abhishek       102 Mar 19 17:12  see
+drwx------  7 abhishek abhishek      4096 Mar 19 16:47  snap
+-rw-rw-r--  1 abhishek abhishek     15465 Mar 19 15:25  create
+-rw-rw-r--  1 abhishek abhishek       401 Mar 18 14:42  MySQL_Installation_Steps.txt
+drwxrwxr-x  2 abhishek abhishek      4096 Mar 15 17:06  practice
+-rw-rw-r--  1 abhishek abhishek        76 Mar  6 17:34 'clone link'
+drwxr-xr-x  2 abhishek abhishek      4096 Mar  6 03:22  Public
+drwxr-xr-x  2 abhishek abhishek      4096 Mar  6 03:22  Templates
+drwxr-xr-x  2 abhishek abhishek      4096 Mar  6 03:22  Videos
+-rw-rw-r--  1 abhishek abhishek 106071384 Mar  5 08:14  google-chrome-stable_current_amd64.deb
+
+
+2]
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ ls -l -S
+total 103704
+-rw-rw-r--  1 abhishek abhishek 106071384 Mar  5 08:14  google-chrome-stable_current_amd64.deb
+-rw-rw-r--  1 abhishek abhishek     15465 Mar 19 15:25  create
+-rw-rw-r--  1 abhishek abhishek      6913 Apr 19 13:50  RajLove
+-rw-rw-r--  1 abhishek abhishek      5746 Jun  1 00:14  Assignment01
+drwxr-xr-x 19 abhishek abhishek      4096 May 31 18:15  Desktop
+drwxr-xr-x  2 abhishek abhishek      4096 Apr 11 18:31  Documents
+drwxr-xr-x  3 abhishek abhishek      4096 May 31 21:58  Downloads
+drwxrwxr-x  2 abhishek abhishek      4096 Apr  3 20:33  labexam
+drwxr-xr-x  3 abhishek abhishek      4096 May 31 18:36  Music
+drwxrwxr-x  4 abhishek abhishek      4096 May 31 23:06  OSpractice
+drwxr-xr-x  4 abhishek abhishek      4096 Mar 19 17:26  Pictures
+drwxrwxr-x  2 abhishek abhishek      4096 Mar 15 17:06  practice
+drwxr-xr-x  2 abhishek abhishek      4096 Mar  6 03:22  Public
+drwxrwxr-x  3 abhishek abhishek      4096 Jun  1 00:18  raj
+drwx------  7 abhishek abhishek      4096 Mar 19 16:47  snap
+drwxrwxr-x  3 abhishek abhishek      4096 Mar 27 14:57  SQLpractice
+drwxrwxr-x  2 abhishek abhishek      4096 May 31 23:14  sw
+drwxr-xr-x  2 abhishek abhishek      4096 Mar  6 03:22  Templates
+drwxr-xr-x  2 abhishek abhishek      4096 Mar  6 03:22  Videos
+-rw-rw-r--  1 abhishek abhishek      1944 Jun  1 17:24  Assignment02
+-rw-rw-r--  1 abhishek abhishek       401 Mar 18 14:42  MySQL_Installation_Steps.txt
+-rw-rw-r--  1 abhishek abhishek       400 Mar 27 17:43  deedd.sql
+-rw-rw-r--  1 abhishek abhishek       102 Mar 19 17:12  see
+-rw-rw-r--  1 abhishek abhishek        76 Mar  6 17:34 'clone link'
+-rw-rw-r--  1 abhishek abhishek         0 Jun  1 17:03  Ass
+-rw-rw-r--  1 abhishek abhishek         0 May 31 23:51  file2.txt
+-rw-rw-r--  1 abhishek abhishek         0 May 31 23:51  file5.txt
+-rw-rw-r--  1 abhishek abhishek         0 May 31 19:11  seeyou
+
+
+3]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ ls -l -i
+total 103704
+3215367 -rw-rw-r--  1 abhishek abhishek         0 Jun  1 17:03  Ass
+3217868 -rw-rw-r--  1 abhishek abhishek      5746 Jun  1 00:14  Assignment01
+3219323 -rw-rw-r--  1 abhishek abhishek      1944 Jun  1 17:24  Assignment02
+3154774 -rw-rw-r--  1 abhishek abhishek        76 Mar  6 17:34 'clone link'
+3194255 -rw-rw-r--  1 abhishek abhishek     15465 Mar 19 15:25  create
+3152370 -rw-rw-r--  1 abhishek abhishek       400 Mar 27 17:43  deedd.sql
+3151960 drwxr-xr-x 19 abhishek abhishek      4096 May 31 18:15  Desktop
+3151964 drwxr-xr-x  2 abhishek abhishek      4096 Apr 11 18:31  Documents
+3151961 drwxr-xr-x  3 abhishek abhishek      4096 May 31 21:58  Downloads
+3181860 -rw-rw-r--  1 abhishek abhishek         0 May 31 23:51  file2.txt
+3215995 -rw-rw-r--  1 abhishek abhishek         0 May 31 23:51  file5.txt
+3162227 -rw-rw-r--  1 abhishek abhishek 106071384 Mar  5 08:14  google-chrome-stable_current_amd64.deb
+3172005 drwxrwxr-x  2 abhishek abhishek      4096 Apr  3 20:33  labexam
+3151965 drwxr-xr-x  3 abhishek abhishek      4096 May 31 18:36  Music
+
+
+
+4]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ cat > /home/abhishek/raj/joy.txt
+Chaudhari Abhishek
+
+5]
+
+i] abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ cat >> /home/abhishek/raj/joy.txt
+Vivekannadnagar Dhule
+
+ii] abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ cat /home/abhishek/raj/joy.txt
+Chaudhari AbhishekVivekannadnagar Dhule
+
+6] 
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ touch /home/abhishek/raj/joy.txt
+
+7]
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ mkdir one
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ cd one
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ touch 1.txt 11.txt 111.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ mkdir three
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ mkdir two
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ cd two
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two$ touch 2.txt 22.txt 222.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two$ mkdir three
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two$ cd three
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three$ touch 3.txt 33.txt 333.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three$ mkdir four
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three$ cd four
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four$ touch 4.txt 44.txt 444.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four$ mkdir five
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four$ cd five
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four/five$ cd /home/abhishek
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ 
+
+
+8]
+ i] abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ ls -l /home/abhishek/one/two/three/four/five
+total 0
+-rw-rw-r-- 1 abhishek abhishek 0 Jun  1 17:48 555.txt
+-rw-rw-r-- 1 abhishek abhishek 0 Jun  1 17:48 55.txt
+-rw-rw-r-- 1 abhishek abhishek 0 Jun  1 17:48 5.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four/five$ cd /home/abhishek
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ ls -l /home/abhishek/one/two/three/four/five
+total 0
+-rw-rw-r-- 1 abhishek abhishek 0 Jun  1 17:48 555.txt
+-rw-rw-r-- 1 abhishek abhishek 0 Jun  1 17:48 55.txt
+-rw-rw-r-- 1 abhishek abhishek 0 Jun  1 17:48 5.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ cat >> /home/abhishek/one/two/three/four/44.txt
+Abhishek 
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ rm /home/abhishek/one/two/three/four/five/555.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~$ cd /home/abhishek/one/two/three/four/five
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four/five$ cat >> /home/abhishek/one/two/3.txt
+
+Course is dac
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four/five$ ls -l /home/abhishek/one/two
+
+total 8
+-rw-rw-r-- 1 abhishek abhishek    0 Jun  1 17:45 222.txt
+-rw-rw-r-- 1 abhishek abhishek    0 Jun  1 17:45 22.txt
+-rw-rw-r-- 1 abhishek abhishek    0 Jun  1 17:45 2.txt
+-rw-rw-r-- 1 abhishek abhishek   14 Jun  1 18:04 3.txt
+drwxrwxr-x 3 abhishek abhishek 4096 Jun  1 17:46 three
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four/five$ rm /home/abhishek/one/two/222.txt
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one/two/three/four/five$ cd /home/abhishek/one
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ rm /home/abhishek/one/two/three/four/five
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ rm -f
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ ls
+
+111.txt  11.txt  1.txt  three  two
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ rm -R /home/abhishek/one/two/three/four/five
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ rm -r /home/abhishek/one/two/three/four/five
+
+
+abhishek@abhishek-ASUS-TUF-Gaming-F15-FX506LI-FX506LI:~/one$ cd /home/abhishek
+
+ 
+
+
