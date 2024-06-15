@@ -1,0 +1,79 @@
+Question 1:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ wc data.txt 
+  6  25 147 data.txt
+
+
+Question 2:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ grep "files" data.txt 
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files.
+
+
+
+Question 3:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ grep "file" data.txt 
+In Linux everything is file.
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files.
+
+
+
+
+Question 4:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ grep -v "files" data.txt 
+Linux is open source.
+In Linux everything is file.
+
+
+
+
+Question 5:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ grep "have" data.txt 
+files have permissions.
+files have inode no.
+files have size.
+
+
+
+Question 6:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ grep "^f" data.txt 
+files have permissions.
+files have inode no.
+files have size.
+
+
+
+Question 7:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ grep ".$" data.txt 
+Linux is open source.
+In Linux everything is file.
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files.
+
+
+Question 8:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ head -1 data.txt 
+Linux is open source.
+
+
+Question 9:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ tail -3 data.txt 
+files have inode no.
+files have size.
+there are several types of files.
+
+
+
+Question 10:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ head -5 data.txt | tail -n +3
+files have permissions.
+files have inode no.
+files have size.
+
+
