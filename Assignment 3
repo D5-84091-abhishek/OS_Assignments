@@ -1,0 +1,313 @@
+Question 1:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ ls -a
+.   big.txt    demo02.sh  file1.txt  num.txt     repeat.txt
+..  demo01.sh  demo03.sh  food.txt   phones.txt  select.txt
+
+
+
+Question 2:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ rename 's/.txt/.htm/' *.txt
+
+
+Question 3:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ ln -s file2.txt
+
+
+Question 4:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ ln file3.txt file3
+
+
+Question 5:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ stat file1.txt 
+  File: file1.txt
+  Size: 316       	Blocks: 8          IO Block: 4096   regular file
+Device: 10308h/66312d	Inode: 2660208     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/abhishek)   Gid: ( 1000/abhishek)
+Access: 2024-06-01 16:44:42.648553283 +0530
+Modify: 2024-06-01 16:44:42.640554399 +0530
+Change: 2024-06-01 17:20:24.600001405 +0530
+ Birth: 2024-06-01 16:44:42.640554399 +0530
+
+
+
+
+Question 6:
+Before touch
+-rw-rw-r-- 1 abhishek abhishek 194 Jun  1 16:44 demo02.sh
+
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ touch demo02.sh 
+
+After touch
+-rw-rw-r-- 1 abhishek abhishek 194 Jun  1 17:40 demo02.sh
+
+
+
+Question 7:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ touch file4.txt
+
+
+
+Question 8:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ tail -n +5 file1.txt 
+VI is worlds best editor?
+Hello DAC.
+Welcome to OS world.
+We are learning Linux commands.
+ Linux commands.
+We are learning
+   learning
+ learning Linux
+
+ 
+Hello DAC.
+Welcome to OS world.
+We are learning Linux commands.
+ Linux commands.
+We are learning
+
+
+
+Question 9:
+
+
+
+Question 10:
+
+
+
+Question 12:
+abhishek@abhishek-TUF-Gaming:~$ whoami
+abhishek
+
+
+
+Question 13:
+abhishek@abhishek-TUF-Gaming:~$ tty
+/dev/pts/0
+
+
+
+Question 14:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ who
+abhishek :1           2024-06-02 09:38 (:1)
+
+
+
+
+Question 15:
+abhishek@abhishek-TUF-Gaming:~$ users
+abhishek abhishek
+
+
+Question 16:
+abhishek@abhishek-TUF-Gaming:~$ who
+abhishek :1           2024-06-01 17:52 (:1)
+abhishek tty3         2024-06-01 18:07
+
+
+Question 17:
+
+For grep:
+abhishek@abhishek-TUF-Gaming:~$ grep "is" OS/os/day02/food.txt 
+this
+biscuit
+isn't
+is
+
+For egrep:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ egrep "b*g" big.txt 
+bag
+beg
+big
+bug
+bog
+b*g
+bg
+
+For fgrep:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ fgrep "b*g" big.txt 
+b*g
+
+
+
+Question 18:
+
+
+
+Question 19:
+
+
+
+Question 20:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ wc < big.txt 
+ 8  8 33
+
+
+Question 21:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ who
+abhishek :1           2024-06-01 17:52 (:1)
+abhishek tty3         2024-06-01 18:07
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ who | wc
+      2       9      83
+
+
+Question 22:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ head -10 newfile.txt | tail -n +5
+five 
+six 
+seven 
+eight
+nine
+ten 
+
+
+
+Question 23:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ sort newDemo.txt | uniq
+eight
+five
+four
+nine
+one
+seven
+six
+ten
+three
+two
+
+
+
+Question 24:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ who | egrep "([^(tty2)] | [^(tty3)] | [^(tty4)])"
+abhishek :1           2024-06-02 09:38 (:1)
+
+
+
+
+Question 25:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ ls -l -h -S
+total 8.3M
+-rw-rw-r-- 1 abhishek abhishek 3.3M Jun  1 18:47 'DAC-OS 02.pdf'
+-rw-rw-r-- 1 abhishek abhishek 428K Jun  1 18:47 'Screenshot from 2024-06-01 11-57-36.png'
+-rw-rw-r-- 1 abhishek abhishek 403K Jun  1 18:47 'Screenshot from 2024-06-01 11-56-28.png'
+-rw-rw-r-- 1 abhishek abhishek 379K Jun  1 18:47 'Screenshot from 2024-06-01 11-58-08.png'
+-rw-rw-r-- 1 abhishek abhishek 272K Jun  1 18:47 'Screenshot from 2024-06-01 16-18-02.png'
+-rw-rw-r-- 1 abhishek abhishek 255K Jun  1 18:47 'Screenshot from 2024-06-01 12-35-30.png'
+-rw-rw-r-- 1 abhishek abhishek 253K Jun  1 18:47 'Screenshot from 2024-06-01 15-37-40.png'
+-rw-rw-r-- 1 abhishek abhishek 245K Jun  1 18:47 'Screenshot from 2024-06-01 15-07-21.png'
+-rw-rw-r-- 1 abhishek abhishek 235K Jun  1 18:47 'Screenshot from 2024-06-01 15-20-14.png'
+-rw-rw-r-- 1 abhishek abhishek 227K Jun  1 18:47 'Screenshot from 2024-06-01 16-01-39.png'
+-rw-rw-r-- 1 abhishek abhishek 224K Jun  1 18:47 'Screenshot from 2024-06-01 14-54-00.png'
+-rw-rw-r-- 1 abhishek abhishek 222K Jun  1 18:47 'Screenshot from 2024-06-01 15-32-34.png'
+-rw-rw-r-- 1 abhishek abhishek 221K Jun  1 18:47 'Screenshot from 2024-06-01 14-45-43.png'
+-rw-rw-r-- 1 abhishek abhishek 203K Jun  1 18:47 'Screenshot from 2024-06-01 15-26-26.png'
+-rw-rw-r-- 1 abhishek abhishek 198K Jun  1 18:47 'Screenshot from 2024-06-01 14-44-13.png'
+-rw-rw-r-- 1 abhishek abhishek 196K Jun  1 18:47 'Screenshot from 2024-06-01 14-51-27.png'
+-rw-rw-r-- 1 abhishek abhishek 190K Jun  1 18:47 'Screenshot from 2024-06-01 14-55-11.png'
+-rw-rw-r-- 1 abhishek abhishek 187K Jun  1 18:47 'Screenshot from 2024-06-01 14-37-45.png'
+-rw-rw-r-- 1 abhishek abhishek 167K Jun  1 18:47 'Screenshot from 2024-06-01 15-22-45.png'
+-rw-rw-r-- 1 abhishek abhishek 162K Jun  1 18:47 'Screenshot from 2024-06-01 14-58-25.png'
+-rw-rw-r-- 1 abhishek abhishek 136K Jun  1 18:47 'Screenshot from 2024-06-01 15-27-19.png'
+-rw-rw-r-- 1 abhishek abhishek 124K Jun  1 18:47  Day02_Notes.pdf
+-rw-rw-r-- 1 abhishek abhishek 105K Jun  1 18:47 'Screenshot from 2024-06-01 15-24-33.png'
+-rw-rw-r-- 1 abhishek abhishek 3.5K Jun  1 18:47  classwork.txt
+-rwxrwxr-x 1 abhishek abhishek  832 Jun  1 16:44  demo01.sh
+-rw-rw-r-- 1 abhishek abhishek  451 Jun  1 16:44  demo03.sh
+-rw-rw-r-- 1 abhishek abhishek  316 Jun  1 17:39  file1.txt
+-rw-rw-r-- 1 abhishek abhishek  194 Jun  1 17:40  demo02.sh
+-rw-rw-r-- 1 abhishek abhishek  150 Jun  1 21:36  newfile.txt
+-rw-rw-r-- 1 abhishek abhishek   98 Jun  1 21:49  newDemo.txt
+-rw-rw-r-- 1 abhishek abhishek   66 Jun  1 16:44  num.txt
+-rw-rw-r-- 1 abhishek abhishek   59 Jun  1 16:44  phones.txt
+-rw-rw-r-- 1 abhishek abhishek   55 Jun  1 16:44  food.txt
+-rw-rw-r-- 2 abhishek abhishek   53 Jun  1 17:36  file3
+-rw-rw-r-- 2 abhishek abhishek   53 Jun  1 17:36  file3.txt
+-rw-rw-r-- 1 abhishek abhishek   52 Jun  1 16:44  repeat.txt
+-rw-rw-r-- 1 abhishek abhishek   37 Jun  1 16:44  select.txt
+-rw-rw-r-- 1 abhishek abhishek   33 Jun  1 16:44  big.txt
+lrwxrwxrwx 1 abhishek abhishek    9 Jun  1 17:26  file2.txt -> file2.txt
+-rw-rw-r-- 1 abhishek abhishek    0 Jun  1 17:42  file4.txt
+
+
+
+Question 26:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ ls | egrep -c ^"([a-z]|[A-Z])"
+40
+
+
+
+Question 27:
+abhishek@abhishek-TUF-Gaming:~$ ls -a | grep "^\." 
+drwxrwxr-x 2 abhishek abhishek    4096 Jun  1 21:49 .
+drwxrwxrwx 6 abhishek abhishek    4096 Jun  1 16:44 ..
+
+
+Question 28:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ cat newDemo.txt | tr "a-z" "A-Z"
+ONE
+TWO
+THREE
+FOUR
+FIVE
+SIX
+SEVEN
+EIGHT
+NINE
+TEN
+ONE
+TWO
+THREE
+FOUR
+FIVE
+SIX
+SEVEN
+EIGHT
+NINE
+TEN
+
+
+Question 29:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day02$ ls -l -h| tr -s  " " "$" | cut -d "$" -f3,6 | tr "$" " "  
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+abhishek Jun
+
+
+
