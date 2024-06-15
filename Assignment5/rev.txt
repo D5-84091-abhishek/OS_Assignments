@@ -1,0 +1,9 @@
+" : yralas cisab eht retnE" n- ohce
+las daer
+
+`cb | "4.0 * las$" ohce`=ad
+`cb | "2.0 * las$" ohce`=arh
+
+`cb | "arh$ + ad$ + las$" ohce`=laSlanif
+
+"laSlanif$ = yralas ssorG" ohce
